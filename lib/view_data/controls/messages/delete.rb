@@ -7,7 +7,7 @@ module ViewData
           identifier ||= Identifier.example
 
           delete = ViewData::Messages::Delete.new
-          delete.name = Name.example
+          delete.name = name
           delete.identifier = Identifier.example
           delete
         end
