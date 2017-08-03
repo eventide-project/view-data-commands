@@ -1,6 +1,6 @@
 module ViewData
-  module Messages
-    class Update
+  module Commands
+    class Create
       include Messaging::Message
 
       attribute :name, String

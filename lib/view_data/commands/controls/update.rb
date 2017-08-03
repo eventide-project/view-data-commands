@@ -1,17 +1,17 @@
 module ViewData
-  module Controls
-    module Messages
-      module Create
+  module Commands
+    module Controls
+      module Update
         def self.example(name: nil, identifier: nil, data: nil)
           name ||= Name.example
           identifier ||= Identifier.example
           data ||= Data.example
 
-          create = ViewData::Messages::Create.new
-          create.name = name
-          create.identifier = identifier
-          create.data = data
-          create
+          update = ViewData::Commands::Update.new
+          update.name = name
+          update.identifier = identifier
+          update.data = data
+          update
         end
       end
     end

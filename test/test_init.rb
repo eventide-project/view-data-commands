@@ -7,6 +7,6 @@ require_relative '../init.rb'
 
 require 'test_bench'; TestBench.activate
 
-require 'view_data/controls'
+require 'view_data/commands/controls'
 
-Controls = ViewData::Controls
+Controls = ViewData::Commands::Controls

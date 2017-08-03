@@ -1,11 +1,10 @@
 module ViewData
-  module Messages
-    class Create
+  module Commands
+    class Delete
       include Messaging::Message
 
       attribute :name, String
       attribute :identifier
-      attribute :data
     end
   end
 end

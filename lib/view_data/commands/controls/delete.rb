@@ -1,12 +1,12 @@
 module ViewData
-  module Controls
-    module Messages
+  module Commands
+    module Controls
       module Delete
         def self.example(name: nil, identifier: nil)
           name ||= Name.example
           identifier ||= Identifier.example
 
-          delete = ViewData::Messages::Delete.new
+          delete = ViewData::Commands::Delete.new
           delete.name = name
           delete.identifier = identifier
           delete
