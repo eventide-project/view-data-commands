@@ -12,7 +12,5 @@ gems_backup
 *notes*
 loader.rb
 
-lib/entity_store/event_store
-lib/entity_store/event_store.rb
-lib/entity_store/postgres
-lib/entity_store/postgres.rb
+lib/view_data/pg
+lib/view_data/pg.rb
