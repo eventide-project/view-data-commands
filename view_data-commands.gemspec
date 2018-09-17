@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
   s.name = 'evt-view_data-commands'
-  s.version = '0.1.0.0'
+  s.version = '0.1.0.1'
   s.summary = 'Message schemas for data-oriented command streams used to populate view databases'
   s.description = ' '
 
