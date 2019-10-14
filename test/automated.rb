@@ -1,8 +1,5 @@
-require_relative 'test_init'
+ENV['TEST_BENCH_EXCLUDE_FILE_PATTERN'] ||= '/_|sketch|(_init\.rb|_tests\.rb)\z'
 
-require 'test_bench/cli'
+require_relative './test_init'
 
-TestBench::CLI.(
-  tests_directory: './test/automated',
-  exclude_pattern: %r{\/_|sketch|(_init\.rb|_tests\.rb)\z}
-) or exit 1
+TestBench::CLI.()
